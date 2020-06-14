@@ -1,3 +1,5 @@
+require ("dotenv").config();
+
 import express, { response } from 'express';
 import cors from 'cors';
 import rotas from './rotas';
